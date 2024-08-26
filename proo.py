@@ -1,7 +1,6 @@
 import streamlit as st 
 import pandas as pd 
 import numpy as np
-import seaborn as sns
 import datetime as dt 
 df=pd.read_excel(r'E:\data analysis\projects part 2\v1.xlsx',sheet_name='InputData')
 df['SALE TYPE'].value_counts() # three category
